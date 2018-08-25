@@ -1,0 +1,80 @@
+AllCops:
+  Exclude:
+    - node_modules/**/*
+  TargetRubyVersion: 2.5
+
+Layout/ExtraSpacing:
+  Enabled: true
+Layout/IndentHash:
+  EnforcedStyle: consistent
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: aligned
+Layout/SpaceAroundOperators:
+  AllowForAlignment: false
+Layout/SpaceBeforeFirstArg:
+  AllowForAlignment: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+  Max: 40
+Metrics/BlockLength:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+  Max: 50
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 50
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  Enabled: true
+  EnforcedStyle: inline
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/ConditionalAssignment:
+  Enabled: true
+Style/Documentation:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/Encoding:
+  Enabled: true
+Style/FormatString:
+  Enabled: true
+  EnforcedStyle: format
+Style/FormatStringToken:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/IfInsideElse:
+  Enabled: false
+Style/MixinUsage:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+Style/TernaryParentheses:
+  Enabled: true
+Style/WordArray:
+  EnforcedStyle: percent

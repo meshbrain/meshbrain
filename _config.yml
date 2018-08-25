@@ -1,0 +1,19 @@
+title: Suman Debnath
+description: >
+  Suman Debnath is a web architect living in New Delhi, India.
+baseurl: ''
+url: 'https://meshbrain.com'
+
+markdown: kramdown
+timezone: Asia/Kolkata
+exclude:
+  - cloudformation.yml
+  - scratch.txt
+  - Gemfile*
+  - node_modules
+  - package.json
+  - yarn.lock
+  - CNAME
+
+sass:
+  style: compressed

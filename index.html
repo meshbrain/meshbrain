@@ -1,4 +1,5 @@
 ---
+# Front matter comment to ensure Jekyll properly reads file.
 ---
 
 <!DOCTYPE HTML>
@@ -12,10 +13,12 @@
 <head>
 	<title>{{ site.title }}</title>
 	<meta charset="utf-8" />
+	{% seo %}
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/stylesheets/main.css" />
 	<noscript>
-		<link rel="stylesheet" href="/assets/stylesheets/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/stylesheets/noscript.css" />
+	</noscript>
 </head>
 
 <body class="is-preload">
@@ -30,17 +33,19 @@
 				<p>Web Developer &nbsp;&bull;&nbsp; Architect</p>
 				<nav>
 					<ul>
-						<li><a href="https://twitter.com/meshbrain" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/sumandebnath" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/meshbrain" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#109;&#101;&#115;&#104;&#098;&#114;&#097;&#105;&#110;&#046;&#099;&#111;&#109;" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://twitter.com/meshbrain" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/sumandebnath" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/meshbrain" class="icon fa-github"><span class="label" rel="nofollow">Github</span></a></li>
+						<li><a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#109;&#101;&#115;&#104;&#098;&#114;&#097;&#105;&#110;&#046;&#099;&#111;&#109;"
+							 class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 				</nav>
 			</header>
 
 			<!-- Footer -->
 			<footer id="footer">
-				<span class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Original design by <a href="http://html5up.net">HTML5 UP</a>. Photo by Cristian Palmer on Unsplash.</span>
+				<span class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Original design by <a href="http://html5up.net" rel="nofollow">HTML5
+						UP</a>. Photo by Cristian Palmer on Unsplash.</span>
 			</footer>
 
 		</div>

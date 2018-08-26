@@ -7,6 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'jekyll'
+gem 'jekyll-seo-tag'
 
 group :development, :test do
   gem 'mry', require: false

@@ -15,5 +15,8 @@ exclude:
   - yarn.lock
   - CNAME
 
+plugins:
+  - jekyll-seo-tag
+
 sass:
   style: compressed
